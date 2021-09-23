@@ -9,11 +9,23 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view.
+   
+    
+    
+    @IBOutlet weak var image: UIImageView!
+    
+    
+
+    
+    
+    @IBAction func click(_ sender: Any) {
+        
+        
+        
+        image.image = UIImage(named: "Heads")
+        
+        
     }
-
-
+    
 }
 
